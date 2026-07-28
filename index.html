@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hehe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="head">
+        <h1><b>AKAN NAMING SYSTEM</b></h1>
+        <p>The Akan naming system is a traditional practice used by the Akan people of Ghana, where children are given names based on the day of the week they are born. Each day has specific male and female names that reflect cultural identity and are believed to be associated with certain personality traits.</p>
+    </div>
+    <div class="ghana">
+        <img src="https://qz.com/cdn-cgi/image/width=1920,quality=85,format=auto/https://assets.qz.com/media/858e9af396be1a046c45a05704dd3437.jpg" alt="ghana" width="800px" height="500px">
+    </div>
+    <section id="form">
+        <div>
+            <h2>Kindly fill in the relevant answer in the form below:</h2>
+        </div>
+        <div class="fom">
+            <div class="cont">
+            <form action="input">AKAN INPUT FORM <br>
+            <div class="date">
+                <label for="birthdate">Birthdate:</label><br>
+                <input type="date" id="birthdate" name="birthdate" required><br><br>
+            </div>
+            <br>
+            <div class="gender">
+                <h4>Gender:</h4>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+                
+            </div>
+            <div id="btn">
+                <button class="btn" type="submit">Submit</button>
+            </div>
+        </div>
+        </form>
+    </section>
+    <section id="result">
+        <h3>Your Akan Name</h3>
+        <div class="result" id="result-day">
+            <p class="day" id="result-day"></p>
+            <p class="name" id="result-name"></p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
