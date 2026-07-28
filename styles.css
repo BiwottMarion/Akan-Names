@@ -67,7 +67,7 @@ input,select{
     color: orangered;
 
 }
-#result{
+.result{
     background-color: aqua;
     color: purple;
     margin-left: 200px;
