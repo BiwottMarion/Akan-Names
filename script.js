@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const birthdateInput = document.getElementById("birthdate");
     const genderInput = document.getElementById("gender");
-
+    
     if (!birthdateInput.value || !genderInput.value) {
       alert("Please choose your birthdate and gender.");
       return;
