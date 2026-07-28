@@ -67,17 +67,6 @@ input,select{
     color: orangered;
 
 }
-.result{
-    background-color: aqua;
-    color: purple;
-    margin-left: 200px;
-    padding-top: 10px;
-    margin-bottom: 20px;
-    width: 400px;
-    text-align: center;
-    margin-top: 20px;
-    border-radius: 10px;
-}
 :root{
     color-scheme: dark;
     font-family: 'Times New Roman', Times, serif;

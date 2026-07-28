@@ -18,7 +18,7 @@ const femaleNames = [
     "Ama"
 ];
 
-const days = [
+const daysOfWeek = [
     "Sunday",
     "Monday",
     "Tuesday",
