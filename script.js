@@ -7,8 +7,9 @@ const resultBox = document.getElementById("result");
 const resultDay = document.getElementById("result-day");
 const resultName = document.getElementById("result-name");
 
-form.addEventListener("submit", function (event) {
+form.addEventListener("submit", (event) => {
   event.preventDefault();
+  console.log("in the fucn")
 
   const day = parseInt(document.getElementById("day").value);
   const month = parseInt(document.getElementById("month").value);
