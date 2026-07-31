@@ -2,16 +2,16 @@ const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
 const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 const weekdayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-const form = document.getElementById("akan-form");
+const form = document.getElementById("name-form");
 const resultBox = document.getElementById("result");
 const resultDay = document.getElementById("result-day");
-const resultName = document.getElementById("result-name");
+const resultName = document.getElementById("resultnm");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  console.log("in the fucn")
+  console.log("in the fun")
 
-  const day = parseInt(document.getElementById("day").value);
+  const day = parseInt(document.getElementById("date").value);
   const month = parseInt(document.getElementById("month").value);
   const year = parseInt(document.getElementById("year").value);
   const gender = document.getElementById("gender").value;
