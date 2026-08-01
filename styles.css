@@ -63,7 +63,7 @@ input,select{
     width: 200px;
     text-align: center;
     background-color: purple;
-    color: aqua;
+    color: yellow;
     border: 1px white;
     border-radius: 10px;
     margin-left: 200px;
@@ -73,8 +73,8 @@ input,select{
 }
 .btn:hover{
     cursor: pointer;
-    color: orangered;
-
+    text-shadow: 3px 5px 5px black;
+    transform: translateX(1px) translateY(1.5px);
 }
 :root{
     color-scheme: dark;
@@ -85,7 +85,18 @@ input,select{
     border: 1px black;
     padding: 10px;
     margin-top: 20px;
-    color: purple;
-    
+    color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    background-color: purple;
+    text-shadow: 3px 5px 5px black;
+    margin-left: 100px;
 }
-
+.name-akan{
+    color: aqua;
+    text-align: center;
+}
+#result h2{
+    color: orange;
+    text-align: center;
+}
