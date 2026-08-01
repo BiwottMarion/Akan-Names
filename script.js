@@ -7,11 +7,12 @@ const resultBox = document.getElementById("result");
 const resultDay = document.getElementById("result-day");
 const resultName = document.getElementById("result-name");
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-  console.log("in the fun")
-
-  const day = parseInt(document.getElementById("birthdate").value);
+form.addEventListener("submit", function (event) {
+  event.preventDefault();  
+  
+  const day = parseInt(document.getElementById("day").value);
+  const month = parseInt(document.getElementById("month").value);
+  const year = parseInt(document.getElementById("year").value);
   const gender = document.querySelector('input[name="gender"]:checked');
 
   const inputIsValid = validateInput(day, month, year, gender);

@@ -22,8 +22,16 @@
             <div class="cont">
             <form id="generator-form" action="submit">AKAN INPUT FORM <br>
             <div class="date">
-                <label for="birthdate">Birthdate:</label><br>
-                <input type="date" id="birthdate" name="birthdate" required><br><br>
+                <label for="day">Day:</label><br>
+                <input type="number" id="day" name="day" min="1" max="31" required><br><br>
+            </div>
+            <div class="date">
+                <label for="month">Month:</label><br>
+                <input type="number" id="month" name="month" min="1" max="12" required><br><br>
+            </div>
+            <div class="date">
+                <label for="year">Year:</label><br>
+                <input type="number" id="year" name="year" min="1000" max="9999" required><br><br>
             </div>
             <br>
             <div class="gender">
