@@ -18,6 +18,7 @@ body{
 }
 .date{
     width: 500px;
+    height: 25px;
 }
 #date{
     display: flex;
@@ -41,6 +42,7 @@ body{
     flex-direction: row;
     margin-left: 0px;
     color: green;
+    height: 18px;
 }
 h3{
     color: green;
