@@ -7,4 +7,22 @@ The Akan Name Generator is a simple and interactive website that determines a us
 # Relevance of the project
 It enables one to get to know their akan names with ease jus by placing the relevant details.
 
+# Structure
+1. Title
+1. Description
+1. Form
+1. Result
+
+# Technologies used
++ HTML
+- CSS
++ Javascript
+- Node js
+# Contact information
+## Phone Number
+0142617446
+# License
++ MIT License
+
+
 
