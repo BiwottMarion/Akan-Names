@@ -35,8 +35,18 @@ body{
     margin-left: 100px;
     margin-top: 20px;
 }
-h2{
-    color: purple;
+#gender{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+.gender{
+    margin-left: 35px;
+}
+h3{
+    color: green;
 }
 .fom{
     border: 10px white;
@@ -53,6 +63,7 @@ h2{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
+    color: green;
 }
 input,select{
     width: 100%;
