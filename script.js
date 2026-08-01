@@ -2,19 +2,17 @@ const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
 const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 const weekdayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-const form = document.getElementById("name-form");
+const form = document.getElementById("generator-form");
 const resultBox = document.getElementById("result");
 const resultDay = document.getElementById("result-day");
-const resultName = document.getElementById("resultnm");
+const resultName = document.getElementById("result-name");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   console.log("in the fun")
 
-  const day = parseInt(document.getElementById("date").value);
-  const month = parseInt(document.getElementById("month").value);
-  const year = parseInt(document.getElementById("year").value);
-  const gender = document.getElementById("gender").value;
+  const day = parseInt(document.getElementById("birthdate").value);
+  const gender = document.querySelector('input[name="gender"]:checked');
 
   const inputIsValid = validateInput(day, month, year, gender);
   if (inputIsValid === false) {
