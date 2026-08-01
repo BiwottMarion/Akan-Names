@@ -67,9 +67,9 @@ input,select{
     border: 1px white;
     border-radius: 10px;
     margin-left: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 10px;
-    box-shadow: 2px 4px 4px purple;
+    box-shadow: 4px 6px 6px purple;
 }
 .btn:hover{
     cursor: pointer;
@@ -84,13 +84,14 @@ input,select{
 .result{
     border: 1px black;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     color: aqua;
     border-radius: 10px;
     text-align: center;
     background-color: purple;
     text-shadow: 3px 5px 5px black;
     margin-left: 100px;
+    box-shadow: 4px 6px 6px purple;
 }
 .name-akan{
     color: aqua;
