@@ -36,14 +36,10 @@ body{
     margin-top: 20px;
 }
 #gender{
-    width: 200px;
+    width: 300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-left: 0px;
-}
-.gender{
-    margin-left: 35px;
 }
 h3{
     color: green;
