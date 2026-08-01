@@ -77,7 +77,7 @@ input,select{
     margin-top: 50px;
     margin-bottom: 20px;
     padding: 10px;
-    box-shadow: 4px 6px 6px rgb(240, 246, 9);
+    box-shadow: 4px 6px 6px purple;
     text-shadow: 3px 5px 5px black;
     font-size: 16px;
 }
@@ -100,8 +100,9 @@ input,select{
     text-align: center;
     background-color: rgb(35, 8, 35);
     text-shadow: 3px 5px 5px black;
-    box-shadow: 4px 6px 6px rgb(240, 246, 9);
+    box-shadow: 4px 6px 6px purple;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 .name-akan{
     color: rgb(240, 246, 9);
