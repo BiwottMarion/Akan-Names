@@ -26,7 +26,7 @@ Given the user has entered a valid birth date
 When they change the selected gender
 Then the website should display the Akan name that matches the chosen gender and birth day
 # Relevance of the project
-It enables one to get to know their akan names with ease jus by placing the relevant details.
+It enables one to get to know their akan names with ease just by placing the relevant details.
 
 # Structure
 1. Title
