@@ -40,6 +40,7 @@ body{
     display: flex;
     flex-direction: row;
     margin-left: 0px;
+    color: green;
 }
 h3{
     color: green;
@@ -70,13 +71,15 @@ input,select{
     width: 200px;
     text-align: center;
     background-color: purple;
-    color: yellow;
+    color: rgb(228, 126, 9);
     border: 1px white;
     border-radius: 10px;
-    margin-left: 200px;
+    margin-top: 50px;
     margin-bottom: 20px;
     padding: 10px;
     box-shadow: 4px 6px 6px purple;
+    text-shadow: 3px 5px 5px black;
+    font-size: 16px;
 }
 .btn:hover{
     cursor: pointer;
@@ -97,7 +100,6 @@ input,select{
     text-align: center;
     background-color: purple;
     text-shadow: 3px 5px 5px black;
-    margin-left: 100px;
     box-shadow: 4px 6px 6px purple;
 }
 .name-akan{
