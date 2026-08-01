@@ -21,19 +21,22 @@
         <div class="fom">
             <div class="cont">
             <form id="generator-form" action="submit">AKAN INPUT FORM <br>
-            <div class="date">
-                <label for="day">Day:</label><br>
-                <input type="number" id="day" name="day" min="1" max="31" required><br><br>
-            </div>
-            <div class="date">
-                <label for="month">Month:</label><br>
-                <input type="number" id="month" name="month" min="1" max="12" required><br><br>
-            </div>
-            <div class="date">
-                <label for="year">Year:</label><br>
-                <input type="number" id="year" name="year" min="1000" max="9999" required><br><br>
-            </div>
-            <br>
+            <section id="date">
+                <div class="date">
+                    <label for="day">Day:</label><br>
+                    <input type="number" id="day" name="day" min="1" max="31" required><br><br>
+                </div>
+                <div class="date">
+                    <label for="month">Month:</label><br>
+                    <input type="number" id="month" name="month" min="1" max="12" required><br><br>
+                </div>
+                <div class="date">
+                    <label for="year">Year:</label><br>
+                    <input type="number" id="year" name="year" min="1000" max="9999" required><br><br>
+                </div>
+                <br>
+            </section>
+                
             <div class="gender">
                 <h4>Gender:</h4>
                 <input type="radio" id="male" name="gender" value="male" required>
@@ -50,7 +53,7 @@
  <!--RESULT BOX-->
 
       <div class="result" id="result">
-        <p class="day" id="result-day">Your Akan name is:</p>
+        <p class="day" id="result-day"></p>
         <p class="name" id="result-name"></p>
       </div>
     </div>
